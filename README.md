@@ -10,28 +10,28 @@ This is a RESTful API built using **Node.js, Express and MongoDB** for managing 
 
 ### **Setup Instructions**
 
-### **1. Clone the repository**
+1. Clone the repository
 ```sh 
 git clone https://github.com/fowziya01/UserManagement_Zylentrix.git
 
-###  **2. Install dependencies**
+
+2. Install dependencies
 
 npm install
 
-
-###  **3. Environment Variables**
+3. Environment Variables
 
 PORT = 6060
 
 MONGO_URL="mongodb://127.0.0.1:27017/UserZyln?directConnection=true&serverSelectionTimeoutMS=2000&appName=mongosh+2.3.8"
 
-### ** 4. Start server**
+4. Start server
 
 npm start
 
 By default,the API  runs on http://localhost:6060
 
-API Endpoints
+**API Endpoints**
 ---------------------------------------------------------------------------------------------------------------
 METHOD                          ENDPOINT                        DESCRIPTION
 ---------------------------------------------------------------------------------------------------------------
@@ -40,8 +40,9 @@ GET                             /api/users                      Retrieve All Use
 GET                             /api/users/:id                  Retrieve a Single User by ID
 PUT                             /api/users/:id                  Update a user by ID
 DELETE                          /api/users/:id                  Delete a user by ID
+----------------------------------------------------------------------------------------------------------------
 
-Sample requests/responses
+**Sample requests/responses**
 
 1.Create a User
 
@@ -167,7 +168,7 @@ Response:
         "__v": 0}
     }
 
-Error Handling
+***Error Handling***
 
 Invalid input (POST with missing fields):
 
@@ -217,5 +218,7 @@ Add JWT authentication
 Add testing with jest
 
 Author
-
 Fowziya Begam
+Project Repository:
+GitHub:
+
