@@ -219,6 +219,6 @@ Add testing with jest
 
 Author
 Fowziya Begam
-Project Repository:
-GitHub:
+Project Repository: https://github.com/fowziya01/UserManagement_Zylentrix
+GitHub: 
 
